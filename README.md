@@ -83,7 +83,7 @@ Este proyecto consiste en desarrollar una plataforma para jugar al "3 en Raya" e
 ## Mensajes y Feedback al Usuario
 
 - **Humor y dinamismo:**
-  - "Si realmente tienes ganas de jugar, decídete ya, ¡que te quedan 5 segundos!"
+  - "!Decídete, que te quedan 5 segundos!"
   - "Lo siento, creo que el otro no tiene las mismas ganas de jugar que tú. ¡Aplazamos el juego para otra ocasión!"
 - **Errores claros:**
   - "La partida no existe. Verifica el ID e inténtalo de nuevo."
