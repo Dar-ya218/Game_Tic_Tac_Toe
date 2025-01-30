@@ -132,3 +132,7 @@ Este proyecto consiste en desarrollar una plataforma para jugar al "3 en Raya" e
 
 Este análisis detallado garantiza que el desarrollo del proyecto sea estructurado y considere todos los casos posibles. ¡Listos para comenzar con el código! 🚀
 
+
+
+
+ En el código actual de game_socket.py, aunque se ha importado WebSocketDisconnect, no se está utilizando explícitamente para manejar las desconexiones. Para asegurarte de que las desconexiones se manejen correctamente, necesitas capturar la excepción WebSocketDisconnect en el lugar donde se manejan las conexiones WebSocket????
