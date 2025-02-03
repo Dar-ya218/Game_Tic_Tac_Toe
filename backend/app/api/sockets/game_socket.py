@@ -17,4 +17,12 @@ class SocketManager:
         for websocket in self.active_connections.get(game_id, []):
             await websocket.send_json(message)
 
+    def initialize(self):
+        print("Socket manager initialized")
+        # Here, you can include any setup logic if needed
+
+    def shutdown(self):
+        print("Socket manager shutting down")
+        self.active_connections.clear()  # Clean up all active connections
+
 socket_manager = SocketManager()

@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import router as api_router
-from app.sockets.game_socket import socket_manager
+from .api.sockets.game_socket import socket_manager
 
 app = FastAPI()
 
