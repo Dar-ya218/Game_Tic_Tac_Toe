@@ -12,3 +12,6 @@ Thumbs.db
 # Ignorar archivos de compilación
 __pycache__/
 *.pyc
+
+# Ignorar dependencias de Node.js
+node_modules/
